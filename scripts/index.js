@@ -4,6 +4,7 @@ import { tagList } from "./elements";
 import { AddTag } from "./classes";
 import { remainTag } from "./functions";
 import { retunIndex } from "./functions";
+import { validatedTheText } from "./functions";
 
 const addTagObj = new AddTag();
 
@@ -14,10 +15,14 @@ addInput.addEventListener("keyup", function (e) {
     if (remainTag() <= 9) {
       const allowedText = e.target.value.replace(/\s/g, ""); //allowedText variable will stored the text which replace() method will scan and remove all the space from it
       if (allowedText.split(",").length <= 10 - remainTag()) {
-        addTagObj.addValue(allowedText, tagList.childElementCount);
-        addTagObj.render().forEach((item) => (tagList.innerHTML += item));
-        e.target.value = "";
-        remainTag();
+        if (validatedTheText(allowedText.split(","))) {
+          addTagObj.addValue(allowedText, tagList.childElementCount);
+          addTagObj.render().forEach((item) => (tagList.innerHTML += item));
+          e.target.value = "";
+          remainTag();
+        } else {
+          alert("The writen tags are not valid");
+        }
       } else {
         alert("You can't add more than 10 tags");
         e.target.value = "";
@@ -26,6 +31,7 @@ addInput.addEventListener("keyup", function (e) {
       alert("You can't add more than 10 tags");
       e.target.value = "";
     }
+    const allowedText = e.target.value.replace(/\s/g, ""); //allowedText variable will stored the text which replace() method will scan and remove all the space from it
   }
 });
 document.querySelector("button").addEventListener("click", function () {

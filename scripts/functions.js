@@ -9,18 +9,11 @@ export const remainTag = function () {
 };
 
 export const validatedTheText = function (theText) {
-  let validatedText = "";
-  for (let i = 0; i < theText.length; i++) {
-    if (theText.charAt(i) == ",") {
-      if (theText.charAt(i) != theText.charAt(i + 1)) {
-      } else {
-        alert("The writen tags are not valid");
-        validatedText = theText;
-        break;
-      }
-    }
-    if (validatedText) {
-      return valid;
+  for (let tag of theText) {
+    if (tag == "") {
+      return false;
+    } else {
+      return true;
     }
   }
 };
