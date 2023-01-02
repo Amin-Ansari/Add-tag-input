@@ -36,6 +36,9 @@ body {
   flex-flow: row wrap;
   padding: 0px 5px;
 }
+.wrapper-body ul {
+  max-width: 100%;
+}
 .wrapper-body form,
 .wrapper-body ul {
   flex-shrink: 0;
@@ -45,6 +48,7 @@ body {
 .tag-list {
   display: flex;
   padding: 8px 5px;
+  flex-flow: row wrap;
 }
 .tag {
   background: #e9e9e9;
@@ -55,6 +59,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 .tag span {
   margin-left: 7px;

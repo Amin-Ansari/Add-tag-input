@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  padding: 0px;\r\n  margin: 0px;\r\n  box-sizing: border-box;\r\n  list-style-type: none;\r\n  text-decoration: none;\r\n  font-family: \"Poppins\", sans-serif;\r\n}\r\n\r\nbody {\r\n  height: 100vh;\r\n  display: flex;\r\n  flex-flow: row wrap;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background: #5172e7;\r\n}\r\n.wrapper {\r\n  background: #fff;\r\n  border-radius: 20px;\r\n  padding: 18px 25px;\r\n  width: 100%;\r\n  max-width: 630px;\r\n  min-width: 450px;\r\n}\r\n.wrapper .wrapper-header p {\r\n  margin: 10px 0px 0px;\r\n}\r\n.wrapper-body {\r\n  margin: 10px 0px;\r\n  outline: 1.7px solid #5172e7;\r\n  border-radius: 6px;\r\n  display: flex;\r\n  flex-flow: row wrap;\r\n  padding: 0px 5px;\r\n}\r\n.wrapper-body form,\r\n.wrapper-body ul {\r\n  flex-shrink: 0;\r\n  padding: 0px;\r\n  align-items: center;\r\n}\r\n.tag-list {\r\n  display: flex;\r\n  padding: 8px 5px;\r\n}\r\n.tag {\r\n  background: #e9e9e9;\r\n  border: 1px solid #d4d4d4;\r\n  margin: 2px;\r\n  padding: 7px 6px;\r\n  border-radius: 7px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.tag span {\r\n  margin-left: 7px;\r\n  background-color: #cfcbcb;\r\n  border-radius: 50%;\r\n  width: 20px;\r\n  height: 20px;\r\n  line-height: 22px;\r\n  padding: 0px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  cursor: pointer;\r\n}\r\n.tag span i {\r\n  color: #757575;\r\n}\r\nform {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  width: auto;\r\n}\r\n.tag-input {\r\n  padding: 10px 7px;\r\n  font-size: 1.05rem;\r\n  width: 100%;\r\n  max-width: 200px;\r\n  border: none;\r\n  margin: 2px;\r\n}\r\n.tag-input:focus {\r\n  outline: none;\r\n}\r\n.wrapper-footer {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  margin-top: 20px;\r\n}\r\nbutton {\r\n  background-color: #5172e7;\r\n  color: #fff;\r\n  border: none;\r\n  padding: 10px 5px;\r\n  font-size: 1.03rem;\r\n  border-radius: 5px;\r\n}\r\n.wrapper-footer p {\r\n  font-size: 1.1rem;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  padding: 0px;\r\n  margin: 0px;\r\n  box-sizing: border-box;\r\n  list-style-type: none;\r\n  text-decoration: none;\r\n  font-family: \"Poppins\", sans-serif;\r\n}\r\n\r\nbody {\r\n  height: 100vh;\r\n  display: flex;\r\n  flex-flow: row wrap;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background: #5172e7;\r\n}\r\n.wrapper {\r\n  background: #fff;\r\n  border-radius: 20px;\r\n  padding: 18px 25px;\r\n  width: 100%;\r\n  max-width: 630px;\r\n  min-width: 450px;\r\n}\r\n.wrapper .wrapper-header p {\r\n  margin: 10px 0px 0px;\r\n}\r\n.wrapper-body {\r\n  margin: 10px 0px;\r\n  outline: 1.7px solid #5172e7;\r\n  border-radius: 6px;\r\n  display: flex;\r\n  flex-flow: row wrap;\r\n  padding: 0px 5px;\r\n}\r\n.wrapper-body ul {\r\n  max-width: 100%;\r\n}\r\n.wrapper-body form,\r\n.wrapper-body ul {\r\n  flex-shrink: 0;\r\n  padding: 0px;\r\n  align-items: center;\r\n}\r\n.tag-list {\r\n  display: flex;\r\n  padding: 8px 5px;\r\n  flex-flow: row wrap;\r\n}\r\n.tag {\r\n  background: #e9e9e9;\r\n  border: 1px solid #d4d4d4;\r\n  margin: 2px;\r\n  padding: 7px 6px;\r\n  border-radius: 7px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-shrink: 0;\r\n}\r\n.tag span {\r\n  margin-left: 7px;\r\n  background-color: #cfcbcb;\r\n  border-radius: 50%;\r\n  width: 20px;\r\n  height: 20px;\r\n  line-height: 22px;\r\n  padding: 0px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  cursor: pointer;\r\n}\r\n.tag span i {\r\n  color: #757575;\r\n}\r\nform {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  width: auto;\r\n}\r\n.tag-input {\r\n  padding: 10px 7px;\r\n  font-size: 1.05rem;\r\n  width: 100%;\r\n  max-width: 200px;\r\n  border: none;\r\n  margin: 2px;\r\n}\r\n.tag-input:focus {\r\n  outline: none;\r\n}\r\n.wrapper-footer {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  margin-top: 20px;\r\n}\r\nbutton {\r\n  background-color: #5172e7;\r\n  color: #fff;\r\n  border: none;\r\n  padding: 10px 5px;\r\n  font-size: 1.03rem;\r\n  border-radius: 5px;\r\n}\r\n.wrapper-footer p {\r\n  font-size: 1.1rem;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -497,6 +497,47 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./scripts/classes.js":
+/*!****************************!*\
+  !*** ./scripts/classes.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AddTag": () => (/* binding */ AddTag)
+/* harmony export */ });
+const listedTags = new WeakMap();
+const tagExtractor = new WeakMap();
+class AddTag {
+  constructor() {
+    this.inputValue = undefined;
+  }
+  addValue(value) {
+    if (value != undefined) {
+      this.inputValue = value;
+    }
+  }
+  render() {
+    const tags = this.inputValue.split(",");
+    let renderdTags = [];
+    tags.forEach(function (item) {
+      renderdTags.push(
+        `<li class="tag">
+      ${item} <span><i class="fa-solid fa-xmark"></i></span>
+    </li>`
+      );
+    });
+    return renderdTags;
+  }
+  removeAll() {
+    this.inputValue = "";
+  }
+}
+
+
+/***/ }),
+
 /***/ "./scripts/elements.js":
 /*!*****************************!*\
   !*** ./scripts/elements.js ***!
@@ -505,9 +546,52 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "addInput": () => (/* binding */ addInput)
+/* harmony export */   "addInput": () => (/* binding */ addInput),
+/* harmony export */   "tagList": () => (/* binding */ tagList)
 /* harmony export */ });
 const addInput = document.querySelector(".tag-input");
+const tagList = document.querySelector(".tag-list");
+
+
+/***/ }),
+
+/***/ "./scripts/functions.js":
+/*!******************************!*\
+  !*** ./scripts/functions.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "remainTag": () => (/* binding */ remainTag),
+/* harmony export */   "validatedTheText": () => (/* binding */ validatedTheText)
+/* harmony export */ });
+/* harmony import */ var _elements__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./elements */ "./scripts/elements.js");
+
+
+const remainTag = function () {
+  const pElement = document.querySelector(".wrapper-footer p");
+  pElement.innerHTML = `${
+    10 - Number(_elements__WEBPACK_IMPORTED_MODULE_0__.tagList.childElementCount)
+  } tags remained`;
+  return Number(_elements__WEBPACK_IMPORTED_MODULE_0__.tagList.childElementCount);
+};
+const validatedTheText = function (theText) {
+  let validatedText = "";
+  for (let i = 0; i < theText.length; i++) {
+    if (theText.charAt(i) == ",") {
+      if (theText.charAt(i) != theText.charAt(i + 1)) {
+      } else {
+        alert("The writen tags are not valid");
+        validatedText = theText;
+        break;
+      }
+    }
+    if (validatedText) {
+      return valid;
+    }
+  }
+};
 
 
 /***/ })
@@ -594,15 +678,43 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/style.css */ "./styles/style.css");
 /* harmony import */ var _elements__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./elements */ "./scripts/elements.js");
+/* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./functions */ "./scripts/functions.js");
+/* harmony import */ var _classes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./classes */ "./scripts/classes.js");
 
 
 
+
+
+
+
+const addTagObj = new _classes__WEBPACK_IMPORTED_MODULE_3__.AddTag();
+
+(0,_functions__WEBPACK_IMPORTED_MODULE_2__.remainTag)();
 
 _elements__WEBPACK_IMPORTED_MODULE_1__.addInput.addEventListener("keyup", function (e) {
-  if (e.key == "Enter") {
-    const finalResult = e.target.value.replace(/\s/g, "");
-    console.log(finalResult);
+  if (e.key == "Enter" && e.target.value) {
+    if ((0,_functions__WEBPACK_IMPORTED_MODULE_2__.remainTag)() <= 9) {
+      const allowedText = e.target.value.replace(/\s/g, ""); //allowedText variable will stored the text which replace() method will scan and remove all the space from it
+      if (allowedText.split(",").length <= 10 - (0,_functions__WEBPACK_IMPORTED_MODULE_2__.remainTag)()) {
+        addTagObj.addValue(allowedText, _elements__WEBPACK_IMPORTED_MODULE_1__.tagList.childElementCount);
+        addTagObj.render().forEach((item) => (_elements__WEBPACK_IMPORTED_MODULE_1__.tagList.innerHTML += item));
+        e.target.value = "";
+        (0,_functions__WEBPACK_IMPORTED_MODULE_2__.remainTag)();
+        console.log(_elements__WEBPACK_IMPORTED_MODULE_1__.tagList.childElementCount);
+      } else {
+        alert("You can't add more than 10 tags");
+        e.target.value = "";
+      }
+    } else {
+      alert("You can't add more than 10 tags");
+      e.target.value = "";
+    }
   }
+});
+document.querySelector("button").addEventListener("click", function () {
+  addTagObj.removeAll();
+  (0,_functions__WEBPACK_IMPORTED_MODULE_2__.remainTag)();
+  _elements__WEBPACK_IMPORTED_MODULE_1__.tagList.innerHTML = "";
 });
 
 })();
