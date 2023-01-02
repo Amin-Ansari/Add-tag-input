@@ -1,10 +1,9 @@
 import "../styles/style.css";
 import { addInput } from "./elements";
 import { tagList } from "./elements";
-import { validatedTheText } from "./functions";
 import { AddTag } from "./classes";
 import { remainTag } from "./functions";
-import { tag } from "postcss-selector-parser";
+import { retunIndex } from "./functions";
 
 const addTagObj = new AddTag();
 
@@ -56,11 +55,3 @@ document.addEventListener("click", function (e) {
     }
   }
 });
-
-function retunIndex(clickedChild) {
-  for (let i = 0; i < tagList.childNodes.length; i++) {
-    if (tagList.childNodes[i] == clickedChild) {
-      return i;
-    }
-  }
-}
