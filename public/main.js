@@ -533,6 +533,14 @@ class AddTag {
   removeAll() {
     this.inputValue = "";
   }
+  removeTag(tagValue) {
+    for (let i = 0; i < this.inputValue.length; i++) {
+      if (this.inputValue[i] == tagValue) {
+        this.inputValue.splice(i, 1);
+        render();
+      }
+    }
+  }
 }
 
 
