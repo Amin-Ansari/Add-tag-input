@@ -495,6 +495,21 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./scripts/elements.js":
+/*!*****************************!*\
+  !*** ./scripts/elements.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "addInput": () => (/* binding */ addInput)
+/* harmony export */ });
+const addInput = document.querySelector(".tag-input");
+
+
 /***/ })
 
 /******/ 	});
@@ -578,7 +593,17 @@ var __webpack_exports__ = {};
   \**************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/style.css */ "./styles/style.css");
+/* harmony import */ var _elements__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./elements */ "./scripts/elements.js");
 
+
+
+
+_elements__WEBPACK_IMPORTED_MODULE_1__.addInput.addEventListener("keyup", function (e) {
+  if (e.key == "Enter") {
+    const finalResult = e.target.value.replace(/\s/g, "");
+    console.log(finalResult);
+  }
+});
 
 })();
 
