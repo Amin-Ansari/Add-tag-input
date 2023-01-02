@@ -26,7 +26,6 @@ export class AddTag {
   }
   removeTag(tagIndex) {
     // const tags = this.inputValue.split(",");
-    console.log(tagIndex);
     const tags = this.inputValue.split(",");
     tags.splice(tagIndex, 1);
     if (tags.length) {

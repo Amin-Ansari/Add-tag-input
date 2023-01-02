@@ -761,6 +761,12 @@ document.addEventListener("click", function (e) {
   }
 });
 
+document.querySelector(".wrapper-body").addEventListener("click", function (e) {
+  if (e.target.classList.contains("wrapper-body")) {
+    _elements__WEBPACK_IMPORTED_MODULE_1__.addInput.focus();
+  }
+});
+
 })();
 
 /******/ })()
