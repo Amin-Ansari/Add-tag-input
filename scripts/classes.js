@@ -24,12 +24,18 @@ export class AddTag {
   removeAll() {
     this.inputValue = "";
   }
-  removeTag(tagValue) {
-    for (let i = 0; i < this.inputValue.length; i++) {
-      if (this.inputValue[i] == tagValue) {
-        this.inputValue.splice(i, 1);
-        render();
-      }
+  removeTag(tagIndex) {
+    // const tags = this.inputValue.split(",");
+    console.log(tagIndex);
+    const tags = this.inputValue.split(",");
+    tags.splice(tagIndex, 1);
+    if (tags.length) {
+      this.inputValue = tags.toString();
+    } else {
+      this.removeAll();
     }
+    return tags.length;
   }
 }
+const ll = ["s", "a"];
+ll.splice;
