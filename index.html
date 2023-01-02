@@ -5,6 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add tag input project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper-header">
+        <h1><i class="fa-sharp fa-solid fa-tags"></i> Tags</h1>
+        <p>Press enter or add comma after each tag</p>
+      </div>
+      <div class="wrapper-body">
+        <ul class="tag-list">
+          <!-- <li class="tag">
+            HTML <span><i class="fa-solid fa-xmark"></i></span>
+          </li> -->
+        </ul>
+        <form action="javaScript:void(0)">
+          <input
+            type="text"
+            class="tag-input"
+            placeholder="write tag name(s)"
+          />
+        </form>
+      </div>
+      <div class="wrapper-footer">
+        <p>10 tags remained</p>
+        <button type="button" class="remove-all">Remove all</button>
+      </div>
+    </div>
+    <script src="public/main.js"></script>
+  </body>
 </html>
