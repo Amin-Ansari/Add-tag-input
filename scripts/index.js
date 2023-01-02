@@ -44,6 +44,7 @@ document.addEventListener("click", function (e) {
   if (e.target.nodeName == "SPAN") {
     if (addTagObj.removeTag(retunIndex(e.target.parentElement))) {
       tagList.innerHTML = "";
+      // console.log(addTagObj.render());
       addTagObj.render().forEach((item) => (tagList.innerHTML += item));
       remainTag();
     } else {
@@ -53,6 +54,7 @@ document.addEventListener("click", function (e) {
   } else if (e.target.classList.contains("fa-xmark")) {
     if (addTagObj.removeTag(retunIndex(e.target.parentElement.parentElement))) {
       tagList.innerHTML = "";
+      // console.log(addTagObj.render());
       addTagObj.render().forEach((item) => (tagList.innerHTML += item));
       remainTag();
     } else {
